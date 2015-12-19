@@ -1,0 +1,16 @@
+#T = 0
+#T_prime = 1
+
+#T_Dist = [1/6.0]*6
+#T_primeDist = [2/7.0, 1/7.0, 1/7.0, 1/7.0, 1/7.0, 1/7.0]
+#playerDist = [1/7.0, 1/7.0, 1/7.0, 1/7.0, 1/7.0, 2/7.0]
+
+    # T     T'
+#pi = [1/4, 3/4]
+
+    #T        T'
+#A = [[1/4, 3/4],     # T
+#    [3/4, 1/4]]    # T'
+
+# B = np.array([plusDiceDists(T_Dist,playerDist),            # T
+#              plusDiceDists(T_primeDist,playerDist)])   # T'
